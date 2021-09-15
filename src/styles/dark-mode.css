@@ -1,0 +1,97 @@
+/* DARK MODE START */
+.dark-mode .loader-wapper {
+    background-color: black;
+}
+
+.dark-mode .square-loader {
+    color: #ffffff;
+    box-shadow: inset 0 0 0 1.2px #ffffff;
+}
+
+.dark-mode .inner-loader .three-dots-loader {
+    color: white;
+}
+
+.dark-mode nav,
+.dark-mode footer {
+    background-color: black;
+    box-shadow: 0px 2px 10px 0px rgba(255, 255, 255, 0.8);
+}
+.dark-mode footer p,
+.dark-mode nav .logo-container a em {
+    color: white;
+}
+
+.dark-mode .tasks {
+    color: white;
+    background-color: black;
+}
+
+.dark-mode .tasks-container h3 {
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.dark-mode .add-task input,
+.dark-mode .add-task span,
+.dark-mode .add-task label {
+    color: white;
+    background-color: transparent;
+}
+
+.dark-mode .add-task select {
+    color: rgb(255, 253, 253);
+    background-color: transparent;
+}
+
+.dark-mode .add-task select option {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+
+.dark-mode ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+    outline: none;
+}
+
+.dark-mode .add-task input.question:focus,
+.dark-mode .add-task input.question:valid {
+    color: rgb(219, 218, 218);
+}
+
+.dark-mode .add-task input.question:focus + label > span,
+.dark-mode .add-task input.question:valid + label > span {
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode .add-task input.question + label > span {
+    color: rgb(160, 159, 159);
+}
+
+.dark-mode .add-task .submit-task:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.dark-mode .add-task .submit-task:active {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.dark-mode .task-list-item {
+    background-image: linear-gradient(
+        147deg,
+        rgb(233, 37, 102, 0.9) 10%,
+        #000000 80%
+    );
+}
+
+.dark-mode .task-list-item .due-date {
+    color: rgb(190, 187, 187);
+}
+
+.dark-mode .task-list-item-label span {
+    color: white;
+}
+/* DARK MODE END */
