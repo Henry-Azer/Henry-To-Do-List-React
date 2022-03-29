@@ -1,4 +1,4 @@
-# Henry To Do List Create React App
+# Henry To Do List React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
